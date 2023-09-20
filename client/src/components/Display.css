@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.image-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    grid-auto-rows: 300px;
+    padding: 12px 18px;
+    background-color: white;
+    border-radius: 0px 8px 8px 8px;
+    margin-bottom: 30px;
+  }
+  
+.image-list img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+
+.shareAcc{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: white;
+  background: white;
+  padding: 24px 30px;
+  border-radius: 16px;
+}
+
+.shareAccHeading{
+  text-align: left;
+  border-bottom: 2px solid;
+  padding-bottom: 8px;
+}
+
+.shareAccHeading p{
+  color: black;
+  font-family: 'Inter', sans-serif;
+  
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+  padding: 0px;
+  margin: 0px;
+}
+
+.shareAccDet{
+  display: flex;
+  gap: 20px;
+}
+
+.shareAccLbl{
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+
+.address{
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #D0D5DD);
+  background: var(--White, #FFF);
+  width: 398.350px;
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: var(--gray-500, #667085);
+  padding: 4px 12px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.imageDisp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.buttonDiv{
+  
+}
+
+.buttonDiv button{
+  padding: 8px 14px;
+  gap: 8px;
+}
+
+.your{
+  border: 1px solid #735CDD;
+  color: white;
+  background: #735CDD;  
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  font-family: 'Inter', sans-serif;
+  border-radius: 8px 0px 0px 0px ;
+}
+
+
+.shared{
+  border-right: 0.5px solid #E3DBFB;
+  border-bottom: 0.5px solid #E3DBFB;
+  background: var(--White, #FFF);
+  font-family: 'Inter', sans-serif;
+  border-radius: 0px 8px 0px 0px ;
+
+}
+
+
+input[type="text"]:focus {
+  background-color: lightblue;
+}

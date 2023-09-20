@@ -1,0 +1,115 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 200px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+  }
+  
+  .modalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .titleHead{
+    color: var(--gray-900, #101828);
+    /* Text lg/Semibold */
+    font-family: 'Inter', sans-serif;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+  }
+
+  .titleCont{
+    color: var(--gray-500, #667085);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 1px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+  }
+
+  #selectNumber{
+    padding: 4px 12px;
+    gap: 8px;
+    width: 424px;
+    border-radius: 8px
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .modalContainer .footer button {
+    width: 100px;
+    height: 35px;
+
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  .address {
+    display: block;
+    text-align: center;
+  }
+  
+  input[type="text"]:focus {
+    background-color: lightblue;
+  }
