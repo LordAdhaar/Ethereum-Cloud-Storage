@@ -1,4 +1,4 @@
-# DST-Decentralized Storage TrustVault
+# Ethereum Cloud Storage
 
 Our project is a secure decentralized storage system (like google cloud but decentralized) that uses cutting-edge technologies like React, Solidity, and Pinata. This innovative solution addresses issues in traditional centralized storage, offering enhanced data privacy, security, and reliability.
 
@@ -8,11 +8,11 @@ https://650aaef9312e51295a6d81d2--quiet-gumption-6c9c9f.netlify.app/
 
 ## Problem
 
-DST (Decentralized Storage Vault) is a blockchain-based solution designed to address the growing concerns surrounding data breaches and privacy violations in the age of AI. With incidents like the Yahoo data breach in 2013, affecting 3 billion users, and the Aadhar card data leak in 2018, affecting 1.1 billion users, it has become evident that centralized storage systems are susceptible to massive data leaks, leading to severe consequences for individuals and organizations alike.
+ESC (Ethereum Cloud Storage) is a blockchain-based solution designed to address the growing concerns surrounding data breaches and privacy violations in the age of AI. With incidents like the Yahoo data breach in 2013, affecting 3 billion users, and the Aadhar card data leak in 2018, affecting 1.1 billion users, it has become evident that centralized storage systems are susceptible to massive data leaks, leading to severe consequences for individuals and organizations alike.
 
 ## Our Solution
 
-The primary goal of DST is to tackle the challenges of data leaks, data privacy, and centralization. By leveraging blockchain technology and cryptography, DST offers a decentralized cloud storage vault where data is distributed across multiple nodes on the blockchain, enhancing security and privacy.
+The primary goal of ESC is to tackle the challenges of data leaks, data privacy, and centralization. By leveraging blockchain technology and cryptography, ESC offers a decentralized cloud storage vault where data is distributed across multiple nodes on the blockchain, enhancing security and privacy.
 
 ## Key Features:
 
