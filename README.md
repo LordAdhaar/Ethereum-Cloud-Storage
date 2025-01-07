@@ -1,10 +1,10 @@
-# Ethereum Cloud Storage
-
-Our project is a secure decentralized storage system (like google cloud but decentralized) that uses cutting-edge technologies like React, Solidity, and Pinata. This innovative solution addresses issues in traditional centralized storage, offering enhanced data privacy, security, and reliability.
-
 ## Live Website
 
 https://650aaef9312e51295a6d81d2--quiet-gumption-6c9c9f.netlify.app/
+
+# Ethereum Cloud Storage
+
+Our project is a secure decentralized storage system (like google cloud but decentralized) that uses cutting-edge technologies like React, Solidity, and Pinata. This innovative solution addresses issues in traditional centralized storage, offering enhanced data privacy, security, and reliability.
 
 ## Problem
 
